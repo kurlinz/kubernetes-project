@@ -1,0 +1,9 @@
+
+apiVersion: alb.networking.azure.io/v1
+kind: ApplicationLoadBalancer
+metadata:
+  name: alb-test
+  namespace: alb-test-infra
+spec:
+  associations: # Update subnet ID to match your environment
+  - /subscriptions/47275798-a588-41ab-8549-db17e66d49b9/resourceGroups/aks-rg/providers/Microsoft.Network/virtualNetworks/aks-vnet/subnets/subnet-alb
