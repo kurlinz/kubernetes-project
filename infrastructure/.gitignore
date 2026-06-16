@@ -1,0 +1,11 @@
+# Terraform local state and provider cache
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
