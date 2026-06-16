@@ -4,7 +4,7 @@ export MSYS_NO_PATHCONV=1
 
 #Visit this page for reference and instructions on how to set up the ALB Controller for AKS clusters:
 # https://learn.microsoft.com/en-us/azure/application-gateway/for-containers/quickstart-deploy-application-gateway-for-containers-alb-controller-addon?tabs=azure-cli%2Cazure-cli2
-SUBSCRIPTION_ID="47275798-a588-41ab-8549-db17e66d49b9"
+SUBSCRIPTION_ID=""
 RESOURCE_GROUP="test-rg"
 AKS_NAME="test-aks-cluster"
 IDENTITY_NAME="azure-alb-identity"
