@@ -1,0 +1,14 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: my-service-monitor
+  labels:
+    release: prometheus-operator
+    type: servicemonitor
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/part-of: opentelemetry-demo
+  endpoints:
+    - port: tcp-service
+      interval: 30s

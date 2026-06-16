@@ -1,4 +1,4 @@
-$subscriptionId = "<subscription-id>"
+$subscriptionId = "<47275798-a588-41ab-8549-db17e66d49b9>"
 $resourceGroup  = "test-rg"
 $aksName        = "test-aks-cluster"
 $identityName   = "azure-alb-identity"
