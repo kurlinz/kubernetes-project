@@ -9,7 +9,11 @@ The chart is distributed as an  as well as via a traditional .
 
 OCI Artifact: oci://ghcr.io/prometheus-community/charts/kube-prometheus-stack
 Helm Repository: https://prometheus-community.github.io/helm-charts with chart kube-prometheus-stack
+helm repo add monitoring-stack https://prometheus-community.github.io/helm-charts
+
+helm repo update
+
 The installation instructions use the OCI registry. Refer to the [helm repo]() command documentation for information on installing charts via the traditional repository.
 
 Install Helm Chart
-helm install [RELEASE_NAME] oci://ghcr.io/prometheus-community/charts/kube-prometheus-stack
+helm install monitoring oci://ghcr.io/prometheus-community/charts/kube-prometheus-stack
